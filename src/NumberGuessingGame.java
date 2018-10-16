@@ -6,9 +6,17 @@ public class NumberGuessingGame {
 public static void main(String[] args) {
 	int choice = 1;
 	Random F = new Random();
-	JOptionPane.showInputDialog(null,"What number am i guessing about");
-	if 
-}
-}
 
+String value =	JOptionPane.showInputDialog(null,"What number am i guessing about");
+
+int f = Integer.parseInt(value);
+
+	if(f == choice) { JOptionPane.showMessageDialog(null, "your correct");
+	
+	}
+	else { 
+		JOptionPane.showMessageDialog(null, "your wrong");
+}
+}
+}
 
