@@ -1,12 +1,5 @@
 package methods;
 
-//Copyright (c) The League of Amazing Programmers 2013-2017
-//Level 0
-
-
-import java.io.File;
-
-import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 import javax.swing.JOptionPane;
@@ -24,11 +17,10 @@ if (animal.equalsIgnoreCase("cow"));
 		playMoo();
 }
 
-void playMoo() {
+ void playMoo() {
 	playNoise(mooFile);
 }
-
-void playQuack() {
+ void playQuack() {
 	playNoise(quackFile);
 }
 
