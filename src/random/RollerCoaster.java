@@ -8,7 +8,8 @@ public class RollerCoaster {public static void main(String[] args) {
 	if (height>=4) {
 		JOptionPane.showMessageDialog(null, "You are able to go on the ride.");
 	}
-	else(height<=4){
+	else { JOptionPane.showMessageDialog(null, "sorry you can't get on");
+		
 }
 }
 }

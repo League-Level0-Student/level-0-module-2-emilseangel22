@@ -15,11 +15,10 @@ public class StarShow {
 		
 		drawStar(150);	//5. delete this line. you will draw the star again in step 8.
 		// 13. Set the speed to 8
-
+ 
 		// 6. Make a variable to hold the X position of the Robot and set it to 10
-           int e=0; e<10;{
-		// 7. Make a variable to hold the Y position of the Robot and set it to 950
-
+           
+		// 7. Make a variable to hold the Y position of the Robot and set it to
 		// 8. Make a variable to hold the star size and set it to 25
 
 		// 12. Repeat the steps #19 to #18, 30 times
@@ -27,7 +26,7 @@ public class StarShow {
 			// 19. Set the pen width to i 
 	
 			// 10. Set the X position of the robot to your X variable
-	
+        	   
 			// 11. Set the Y position of the robot to your Y variable
 	
 			// 9. Call the drawStar() method with your star size variable
@@ -57,6 +56,10 @@ public class StarShow {
 			robot.turn(144);
     }
 	}
+	}
+	private void drawStar(int i) {
+		// TODO Auto-generated method stub
+		
 	}
 	private void move(int starSize); {
 		// TODO Auto-generated method stub
